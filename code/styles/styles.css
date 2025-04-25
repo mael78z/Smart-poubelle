@@ -1,0 +1,122 @@
+.buttonH:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }
+
+
+  .spaced-table tr {
+    margin-bottom: 10px; /* Espace entre les lignes */
+}
+.spaced-table td, .spaced-table th {
+    padding: 10px; /* Espace à l'intérieur des cellules */
+}
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: helvetica;
+}
+
+.center{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 90%; /* Ajustez cette valeur selon vos besoins */
+  padding: 10px;
+
+}
+nav{
+  background-color: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a.stylized-link{
+
+  color: white;
+  font-size: 17px;
+  padding:   7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.stylized-link.active, a.stylized-link:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+form{
+  margin-left: 500px;
+}
+/*
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+*/
+
+.container {
+  display: flex;
+  justify-content: center; /* Centre les boîtes horizontalement dans le conteneur */
+  margin-top: 70px;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre les éléments horizontalement */
+  justify-content: center; /* Centre les éléments verticalement */
+  margin-top: 0px;
+  height: auto;
+  width: 250px;
+  padding: 30px;
+  background-color: #F6F8F9;
+  margin: 30px;
+  box-sizing: border-box; /* Inclut le padding et la bordure dans les dimensions totales */
+  word-wrap: break-word; /* Permet de casser les mots pour éviter le débordement */
+  overflow-wrap: break-word; /* Compatibilité avec d'autres navigateurs */
+}
+
+
+.box1 img {
+ 
+  margin-right: 10px; /* Espace entre le logo et le texte */
+  width: 50px; /* Taille du logo */
+  height: auto; /* Garder les proportions du logo */
+  margin-bottom: 20px;
+}
+
+
+
+
+/*
+height: auto; /* Auto pour ajuster en fonction du contenu 
+width: 200px; /* Largeur fixe ou ajustable selon les besoins 
+padding: 20px; /* Ajoute de l'espace à l'intérieur des divs 
+background-color: #F6F8F9;
+margin: 10px; /* Ajoute de l'espace entre les boîtes 
+box-sizing: border-box; /* Inclut le padding et la bordure dans les dimensions totales 
+word-wrap: break-word; /* Permet de casser les mots pour éviter le débordement 
+overflow-wrap: break-word; /* Compatibilité avec d'autres navigateurs 
+*/
